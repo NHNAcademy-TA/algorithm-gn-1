@@ -14,7 +14,7 @@ public class Main    {
             System.out.printf("Case %d %n", i);
 
             String correct = output[i];
-            System.out.printf("Input : %d \t -> Expected : %s %n",input[i], output);
+            System.out.printf("Input : %d \t -> Expected : %s %n",input[i], output[i]);
 
             String str = solution(input[i]);
             System.out.printf("Your Answer : %s %n", str);
@@ -25,6 +25,11 @@ public class Main    {
         }
 
         return score;
+    }
+
+    public static String solution(int input) {
+
+        return null;
     }
 }
 

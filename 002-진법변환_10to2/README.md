@@ -7,7 +7,7 @@ Main.main(String[]) 에서 입력되는 정수형 배열 input 을 매개변수�
 
 ### [ 조건 ] 
 
-1. 2진수 정수를 문자열로 반환하는 Main.solution(int) 메서드 작성
+1. 10진수 정수를 2진수 문자열로 반환하는 Main.solution(int) 메서드 작성
 2. Integer.toBinaryString(int) 메서드 사용 금지
 
 ### [ 입출력 예시 ]
